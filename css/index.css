@@ -86,7 +86,7 @@ html {
     background-color: rgba(0, 0, 0, .75);
 }
 
-/*project section styling*/
+/*project's section styling*/
 .carousel-inner>.carousel-item>img {
     width: 854px;
     height: 480px;
@@ -147,11 +147,8 @@ html {
     background-color: rgba(4, 181, 135, .75);
 }
 
-/*abt me section styling*/
+/*abt me's section styling*/
 @media screen and (min-width: 1000px) {
-/*    #abtImg {
-        padding: 0;
-    }*/
     #tools>img {
         width: 125px!important;
         height: 125px!important;
@@ -179,11 +176,6 @@ html {
     }
 }
 
-/*#tools>img {
-    width: 125px!important;
-    height: 125px!important;
-}*/
-
 #coreTools img {
     height: 125px;
     width: 125px;
@@ -210,6 +202,11 @@ html {
     }
 }
 
+#abtBody a:hover {
+    color: white!important;
+    background-color: #04b587!important;
+    border-radius: .25rem;
+}
 
 /*contact me styling*/
 @media screen and (max-width: 420px) {
